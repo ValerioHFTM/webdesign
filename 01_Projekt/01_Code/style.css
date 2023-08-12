@@ -17,7 +17,7 @@ body {
 }
 /* header */
 header {
-  background-color: #bed9dd66;
+  background-color: rgba(222, 222, 222, 0.4);
   margin-bottom: 30px;
   padding: 10px 10px;
 }
@@ -50,7 +50,7 @@ nav a {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #555;
+  background-color: rgba(222, 222, 222, 0.4);
 }
 
 .dropdown:hover .dropdown-content {
@@ -68,7 +68,7 @@ nav a {
 
 /* Hover effect on dropdown items */
 .dropdown-content li:hover {
-  background-color: #444;
+  background-color: rgba(222, 222, 222, 0.4);
 }
 .container {
   width: 50%;
@@ -183,7 +183,7 @@ footer {
 
   /* width: 100%; */
   /* display: inline-block; */
-  background-color: #bed9dd66;
+  background-color: rgba(222, 222, 222, 0.4);
 }
 ul {
   list-style-type: none;
