@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- In the head we define whats going on -->
+  <head>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- you can see the title in the tab on top of your browser -->
+    <title>Bird</title>
+  </head>
+
+  <body>
+    <!-- the body is usualy split into at least 3 blocks, header, the main in the body and the footer -->
+    <!-- HEADER -->
+    <div class="container">
+      <header>
+        <h1>What Bird am I?</h1>
+        <!-- he said during class i is for italic but this is oldschool. usually you are suppose to use em for emphasize -->
+        <!-- to put something in Bold in a sentence you can use the statement strong  -->
+        <!-- the <br/> tag is used to make a break inside a p -->
+
+        <aside class="intro">
+          <p>
+            This is a website from <strong>Mateusz</strong> and
+            <em>Valerio</em>
+          </p>
+        </aside>
+        <button href="contact.html" class="contactbutton">Contact</button>
+      </header>
+
+      <!-- Mainpage -->
+      <div class="content">
+        <h2>Insert memory here</h2>
+        <p>
+          This is our website <br />ff <br />brdd <br />sdsds<br />ff <br />brdd
+          <br />sdsds<br />ff <br />brdd <br />sdsds
+        </p>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <!-- ul stantds for unorganzied list. each list item is set with the li tag.
+        for a ordered list 1,2,3 you canuse the ol tag. -->
+        <div class="navigation">
+          <div class="listleft">
+            <ul class="footerlists">
+              <!-- to create a link in html you can use the anchor <a>.
+            the anchor has an attribute called href. this defines where the link is going. 
+            the  class is used to style in the style.css -->
+              <li class="listtitle">Content</li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="review.html">Reviews</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="games.html">Games</a></li>
+            </ul>
+          </div>
+          <div class="listmid">
+            <ul>
+              <li class="listtitle">Information</li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="partner.html">Partner</a></li>
+            </ul>
+          </div>
+
+          <div class="listright">
+            <ul>
+              <li class="listtitle">Webshop</li>
+              <li><a href="webshop.html">Webshop</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
