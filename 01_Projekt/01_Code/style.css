@@ -62,7 +62,7 @@ nav a {
 }
 
 .dropdown-content a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ nav a {
 .container {
   width: 50%;
   margin: 50px auto;
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   background-color: rgba(222, 222, 222, 0.4);
 
   padding-left: 20px;
@@ -100,14 +100,17 @@ nav a {
   text-decoration: underline;
   border-radius: 5%;
   background-color: #dededeac;
+  /* text-shadow: 0 0 5px #00c0d5ad; */
 }
 
 h1 a {
-  color: #00c0d5ad;
+  color: yellow;
   font-size: 30px;
   margin-bottom: 0px;
   text-transform: uppercase;
+  text-shadow: 0 0 15px black;
 }
+
 h1 a:hover {
   color: rgba(0, 192, 213, 1);
 }
@@ -147,6 +150,16 @@ a:hover {
 a:active {
   color: red;
 }
+/* Related Posts */
+.related-posts {
+  border-top: 2px solid #00c0d5ad;
+  border-bottom: 2px solid #00c0d5ad;
+  background-color: #fff;
+  position: absolute;
+  float: right;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+}
 /* index */
 /* Reviews */
 h4,
@@ -164,13 +177,6 @@ h5 {
 
 .productsource {
   list-style: square;
-}
-.related-posts {
-  border-top: 2px solid #00c0d5ad;
-  border-bottom: 2px solid #00c0d5ad;
-  background-color: #fff;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
 }
 
 /* *************************************************************** */

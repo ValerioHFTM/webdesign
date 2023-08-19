@@ -1,44 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link href="style.css" type="text/css" rel="stylesheet" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travellin</title>
-  </head>
+  <?php require 'header.php'?> 
   <body>
-    <header>
-      <h1>Home</h1>
-      <!-- he said during class i is for italic but this is oldschool. usually you are suppose to use em for emphasize -->
-      <!-- to put something in Bold in a sentence you can use the statement strong  -->
-      <!-- the <br/> tag is used to make a break inside a p -->
-
-      <aside class="intro">
-        <p>
-          This is a website from <strong>Mateusz</strong> and
-          <em>Valerio</em>
-        </p>
-      </aside>
-
-      <button href="contact.html" class="contactbutton">Contact</button>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a href="review.html">Reviews</a>
-            <ul class="dropdown-content">
-              <li><a href="review.html">Backpacks</a></li>
-              <li><a href="review.html">Shelter</a></li>
-              <li><a href="review.html">Category 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="webshop.html">Webshop</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  
     <div class="container">
       <div class="content">
         <p>this is our contactsheet</p>
