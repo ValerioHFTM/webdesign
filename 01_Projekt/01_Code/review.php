@@ -12,29 +12,58 @@
     <div class="container">
         <h2>Here you can find our reviews</h2>
         <!-- backpacks -->
-        <div>
-          <ul>
-            <h3>Packpacks</h3>
-            <li>
-              <a href="TT_Raid.html">Tasmanian Tiger Raid Pack MK III (52l)</a>
-            </li>
-            <li>
-              <a href="#">Deuter blue big</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Shelter -->
-        <div>
-          <ul>
-            <h3>Shelter</h3>
-            <li>
-              <a href="MSR_Access3.html">MSR Access 3 </a>
-            </li>
-            <li>
-              <a href="#">NORD something something</a>
-            </li>
-          </ul>
-        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+
+            <a href="TT_Raid.html">
+            <img
+              src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+              alt="Tasmanian Tiger Raid Pack MKIII"
+              >
+            </a>
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+
+            <a href="TT_Raid.html">
+            <img
+              src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+              alt="Tasmanian Tiger Raid Pack MKIII"
+              >
+            </a>
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+
+            <a href="TT_Raid.html">
+            <img
+              src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+              alt="Tasmanian Tiger Raid Pack MKIII"
+              >
+            </a>
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+
+            <a href="TT_Raid.html">
+            <img
+              src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+              alt="Tasmanian Tiger Raid Pack MKIII"
+              >
+            </a>
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+
+            <a href="TT_Raid.html">
+            <img
+              src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+              alt="Tasmanian Tiger Raid Pack MKIII"
+              >
+            </a>
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          
     </div>
     <?php require 'posts.php'?> 
     <?php require 'footer.php'?> 

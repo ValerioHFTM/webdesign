@@ -4,24 +4,21 @@
     <h4>Related posts</h4>
       <ul>
         <li class="post1">
-          <img
-                src="img/related-1.jpg"
-                alt="Person programming"
-                width="75"
-                width="75"
+          <a href="#">Raid Pack MKIII</a>
+          <br />
+          <img  class="Raidpack"
+                src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Front.png"
+                alt="TT_Raid"
+                
               />
-              <a href="#">How to Learn Development</a>
-    
             </li>
             <li class="post2">
-              <img
-                src="img/related-2.jpg"
-                alt="Lightning"
-                width="75"
-                heigth="75"
-              />
               <a href="#">The Unknown Powers of CSS</a>
-              <p>By Jim Dillon</p>
+              <br />
+              <img
+                src="../02_Images/Access3/MSR_Access3_Front_Green.jpg"
+                alt="MSR_Access3"
+              />
             </li>
             <li class="post3">
               <img

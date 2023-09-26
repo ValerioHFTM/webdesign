@@ -13,10 +13,10 @@
         <ul>
           <li><a href="index.php">Home</a></li>
           <li class="dropdown">
-            <a href="review.html">Reviews</a>
+            <a href="review.php">Reviews</a>
             <ul class="dropdown-content">
               <li><a href="review.php">Backpacks</a></li>
-              <li><a href="review.html">Shelter</a></li>
+              <li><a href="shelter.php">Shelter</a></li>
               <li><a href="review.html">Category 3</a></li>
             </ul>
           </li>
