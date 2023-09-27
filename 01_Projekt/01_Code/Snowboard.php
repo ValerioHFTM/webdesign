@@ -1,46 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <link href="style.css" type="text/css" rel="stylesheet" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travellin</title>
+    <title>Travelling Guide</title>
   </head>
   <body>
-    <header>
-      <h1>Home</h1>
-      <!-- he said during class i is for italic but this is oldschool. usually you are suppose to use em for emphasize -->
-      <!-- to put something in Bold in a sentence you can use the statement strong  -->
-      <!-- the <br/> tag is used to make a break inside a p -->
-
-      <aside class="intro">
-        <p>
-          This is a website from <strong>Mateusz</strong> and
-          <em>Valerio</em>
-        </p>
-      </aside>
-      <button href="contact.html" class="contactbutton">Contact</button>
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a href="review.html">Reviews</a>
-            <ul class="dropdown-content">
-              <li><a href="review.html">Backpacks</a></li>
-              <li><a href="review.html">Shelter</a></li>
-              <li><a href="review.html">Category 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="webshop.html">Webshop</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php require 'header.php'?>
     <div class="container">
-      <div class="content">
-        <h2>Tasmanian Tiger Raid Pack MK III</h2>
+        <h2>Snowboard NITRO</h2>
         <p>
           Go to<a
             href="https://www.tasmaniantiger.info/de/produkt/tt-raid-pack-mkiii/"
@@ -64,7 +34,7 @@
           src="../02_Images/TT_Raid_Pack_mk3_Front.png"
           alt="Tasmaian Tiger Raid Pack mk III, Front, Green"
           class="TT-Raid-Pack-mk3-Front"
-        />
+        >
         <h4 class="summary">Summary: 10 / 10</h4>
         <p>
           In our reviews we try to be as fast forward as possible. <br />
@@ -139,76 +109,8 @@
           IRR green).
         </p>
         <h5>Usefullness</h5>
-        <!-- *************************** RELATED POSTS *******************************-->
-        <aside class="related-posts">
-          <h4>Related posts</h4>
-
-          <ul>
-            <li>
-              <img
-                src="img/related-1.jpg"
-                alt="Person programming"
-                width="75"
-                width="75"
-              />
-              <a href="#">How to Learn Web Development</a>
-              <p>By Jonas Schmedtmann</p>
-            </li>
-            <li>
-              <img
-                src="img/related-2.jpg"
-                alt="Lightning"
-                width="75"
-                heigth="75"
-              />
-              <a href="#">The Unknown Powers of CSS</a>
-              <p>By Jim Dillon</p>
-            </li>
-            <li>
-              <img
-                src="img/related-3.jpg"
-                alt="JavaScript code on a screen"
-                width="75"
-                height="75"
-              />
-              <a href="#">Why JavaScript is Awesome</a>
-              <p>By Matilda</p>
-            </li>
-          </ul>
-        </aside>
-        <!-- Footer -->
-      </div>
     </div>
-
-    <footer>
-      <!-- ul stantds for unorganzied list. each list item is set with the li tag.
-        for a ordered list 1,2,3 you canuse the ol tag. -->
-      <div class="navigation">
-        <div class="listleft">
-          <ul class="footerlists">
-            <!-- to create a link in html you can use the anchor <a>.
-            the anchor has an attribute called href. this defines where the link is going. 
-            the  class is used to style in the style.css -->
-            <li class="listtitle">Content</li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="review.html">Reviews</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </div>
-        <div class="listmid">
-          <ul>
-            <li class="listtitle">Information</li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="partner.html">Partner</a></li>
-          </ul>
-        </div>
-        <div class="listright">
-          <ul>
-            <li class="listtitle">Webshop</li>
-            <li><a href="webshop.html">Webshop</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    <?php require 'posts.php'?> 
+    <?php require 'footer.php'?>
   </body>
 </html>

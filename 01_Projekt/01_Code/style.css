@@ -242,6 +242,29 @@ h5 {
 
 /* *************************************************************** */
 /* Footer */
+.about {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Space between images and text */
+  max-width: 800px; /* Adjust this to your container width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding for spacing */
+}
+.image {
+  flex: 1; /* Equal width for both images */
+}
+.left-image {
+  order: -1; /* Move the left image to the left */
+  text-align: right; /* Align the image to the right within its div */
+}
+.right-image {
+  order: 1; /* Move the right image to the right */
+  text-align: left; /* Align the image to the left within its div */
+}
+.content {
+  flex: 1; /* Take up remaining space in the container */
+  text-align: center; /* Center the text horizontally */
+}
 
 footer {
   margin-bottom: 0;

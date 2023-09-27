@@ -15,12 +15,12 @@
           <li class="dropdown">
             <a href="review.php">Reviews</a>
             <ul class="dropdown-content">
-              <li><a href="review.php">Backpacks</a></li>
-              <li><a href="shelter.php">Shelter</a></li>
-              <li><a href="review.html">Category 3</a></li>
+              <li><a href="TT_Raid.php">Backpack</a></li>
+              <li><a href="Bronner.php">Dr. Bronner</a></li>
+              <li><a href="Lowa.php">Lowa</a></li>
             </ul>
           </li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.php">About Us</a></li>
           <li><a href="webshop.html">Webshop</a></li>
           <!-- <li><a href="contact.php">Contact</a></li> -->
         </ul>
