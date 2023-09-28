@@ -13,7 +13,7 @@
          <ul>
            <li class="listtitle">Information</li>
            <li><a href="mailto:outdoorgear@gmail.com?subject=Inquiry&body=Hello%20Outdoor%20Gear%20Team,">Contact</a></li>
-           <li><a href="about.php">about</a></li>
+           <li><a href="about.php">About us</a></li>
          </ul>
        </div>
        <div id="list3">

@@ -18,7 +18,7 @@
               <li><a href="TT_Raid.php">Backpack</a></li>
               <li><a href="Bronner.php">Dr. Bronner</a></li>
               <li><a href="Lowa.php">Lowa</a></li>
-              <li><a href="shelter.php">shelter</a></li>
+              <li><a href="Shelter.php">shelter</a></li>
               <li><a href="Snowboard.php">Board</a></li>
             </ul>
           </li>

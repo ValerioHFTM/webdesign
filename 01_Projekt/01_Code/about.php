@@ -34,7 +34,7 @@
           </div>
           <div class="image right-image">
           <img
-                src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+                src="../02_Images/mateusz.png"
                 alt="Mateusz"
                 class="mateusz"
                 >
