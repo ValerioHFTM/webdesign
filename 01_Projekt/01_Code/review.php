@@ -35,7 +35,7 @@
           </figure>
           <figure class="gallery-item">
 
-            <a href="MSR_Access3.php">
+            <a href="shelter.php">
             <img
               src="../02_Images/Access3/MSR_Access3_Front_Action.jpg"
               alt="MSR Access 3 Tent"

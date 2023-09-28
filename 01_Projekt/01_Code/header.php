@@ -8,7 +8,7 @@
         </p>
       </aside>
 
-      <button href="contact.php" class="contactbutton">Contact</button>
+      <button onclick="location.href = 'mailto:outdoorgear@gmail.com?subject=Inquiry&body=Hello%20Outdoor%20Gear%20Team,';" class="contactbutton">Contact</button>
       <nav>
         <ul>
           <li><a href="index.php">Home</a></li>
@@ -18,12 +18,12 @@
               <li><a href="TT_Raid.php">Backpack</a></li>
               <li><a href="Bronner.php">Dr. Bronner</a></li>
               <li><a href="Lowa.php">Lowa</a></li>
-              <li><a href="MSR_Access3.php">Tent</a></li>
+              <li><a href="shelter.php">shelter</a></li>
               <li><a href="Snowboard.php">Board</a></li>
             </ul>
           </li>
           <li><a href="about.php">About Us</a></li>
-          <li><a href="webshop.html">Webshop</a></li>
+          <li><a href="https://www.galaxus.ch/en">Webshop</a></li>
           <!-- <li><a href="contact.php">Contact</a></li> -->
         </ul>
       </nav>

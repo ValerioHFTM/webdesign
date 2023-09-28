@@ -51,7 +51,7 @@
           <li>
             <a
               href="https://www.sportx.ch/de/p/473319239020/lowa-renegade-gtx-mid?gclid=Cj0KCQjwpc-oBhCGARIsAH6ote_AiSWXIi22jPj_z2gR-b2OG9ch3QDaocpHMG8YBfTmsNz4pnsWin0aAozmEALw_wcB&gclsrc=aw.ds"
-              >Lowa Renegade RTX on Spotx</a
+              >Lowa Renegade RTX on Sportx</a
             >
           </li>
           <li>

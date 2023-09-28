@@ -16,7 +16,7 @@
           
           <div class="image left-image">
             <img
-                  src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+                  src="../02_Images/valerio.png"
                   alt="Valerio"
                   class="valerio"
                   > 

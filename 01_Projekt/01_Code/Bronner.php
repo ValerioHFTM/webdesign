@@ -31,7 +31,7 @@
         <img
           src="../02_Images/Bronner/Bronner_Action.webp"
           alt="Tasmaian Tiger Raid Pack mk III, Front, Green"
-          class="Product"
+          class="product"
         />
         <h4 class="summary">Summary: 9 / 10</h4>
 
@@ -43,12 +43,6 @@
         One bottle lasts an impressively long time, making it a wallet-friendly choice for a variety of cleaning needs.
         </p>
         <ul class="productsource">
-          <li>
-            <a
-              href="https://www.trooper.ch/suche?controller=search&s=tasmanian+tiger+raid+pack"
-              >Raid Pack on Trooper</a
-            >
-          </li>
           <li>
             <a
               href="https://www.galaxus.ch/de/s6/product/dr-bronners-18-in-1-teebaum-fluessigseife-60-ml-handseife-6807916?supplier=406802"

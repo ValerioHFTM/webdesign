@@ -13,104 +13,74 @@
         <h2>Snowboard NITRO</h2>
         <p>
           Go to<a
-            href="https://www.tasmaniantiger.info/de/produkt/tt-raid-pack-mkiii/"
+            href="https://nitrosnowboards.com/de"
           >
-            Tasmanian Tiger.com</a
+            nitrosnowboards.com</a
           >
         </p>
         <h5>Supplier Description</h5>
         <p class="manufacturerDescription">
-          The TT Raid Pack MK III has a main compartment with a volume of 48
-          liters and two fixed side pockets with a volume of 2 liters each.
-          MOLLE on the front, the lid, the side pockets and on the hip belt
-          allows individual extension. The V2 Plus Carrying System of the
-          backpack is designed for a weight of up to approx. 40 kilograms and
-          offers great variability when adjusting the back length. Due to the
-          removable hip belt, the backpack can also be carried with fully
-          equipped chest rigs and vests. The hip belt can be used separately as
-          a Warrior Belt.
+        The Nitro Team Splitboard allows everyone to enjoy regular chairlift days at the ski resort on a comfortable and versatile snowboard, 
+        but with the added advantage of being able to venture beyond the marked slopes to reach remote peaks. 
+        This means that Team Splitboarders can leave the resort on a busy weekend and embark on a backcountry tour in search of fresh descents and new perspectives. 
+        The Team Split's Dual Degressive Sidecut, Directional Twin Shape, and progressive widths ensure that this board feels like a normal resort cruiser. 
+        The Trüe Camber and Standard Core Profile provide you with the necessary grip and support for uphill and downhill touring.
+<br>
+<br>
+Equipped with Nitro's robust Tail and Tip Locks, forged T7075 aluminum hooks, and the Nitro x Kohla Attachment System, 
+you can switch to Splitboarding Hike Mode whenever you feel like it. 
+Just remember to have your backcountry gear and the specially tailored Nitro x Kohla Peak Skins in your backpack.
+<br>
+<br>
+In the past, you had to choose between buying a new Splitboard or a regular snowboard. 
+Now, you no longer need to invest in both or choose between a Splitboard or a resort snowboard setup. 
+You can finally get a versatile all-mountain board that does it all - the new Nitro Team Split!
         </p>
+        <div >
         <img
-          src="../02_Images/TT_Raid_Pack_mk3_Front.png"
-          alt="Tasmaian Tiger Raid Pack mk III, Front, Green"
-          class="TT-Raid-Pack-mk3-Front"
+          src="../02_Images/Snowboard/Board_Action2.jpg"
+          alt="MSR Access 3"
+          class="product"
         >
+        </div>
         <h4 class="summary">Summary: 10 / 10</h4>
-        <p>
-          In our reviews we try to be as fast forward as possible. <br />
-          This is why we rate all the products we tested by the same
-          schematic.<br />
-          For each category we rate the product on a scale from 1 to 10 <br />
-          (10 being the highest, because its the highest)
-        </p>
-        <ul>
-          <li>Price</li>
-          <li>Comfort</li>
-          <li>Style</li>
-          <li>Usefullness</li>
-          <li>Durability</li>
-        </ul>
+     
         <h4>The Review in details</h4>
-        <h5>Price</h5>
-        <p>
-          Compared to other products with the same size the Raid Pack mk III is
-          more expensive. <br />
-          Usually a Backpack with 50-55l is ranged between 180.- CHF to 300.-
-          CHF
-          <br />
-          With Tasmanian Tiger being a rather expensive brand it is no surprise
-          that the Raid Pack MK III is available for around 350.- CHF to 450.-
-          CHF
-        </p>
-        <ul class="productsource">
-          <li>
-            <a
-              href="https://www.trooper.ch/suche?controller=search&s=tasmanian+tiger+raid+pack"
-              >Raid Pack on Trooper</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.galaxus.ch/de/search?q=tasmanian+tiger+raid+pack"
-            >
-              Raid Pack on Galaxus</a
-            >
-          </li>
-        </ul>
-        <p>
-          The One for around 450.- CHF is a special Infrared repellend color /
-          material. It is only used for the military.
-        </p>
-        <h5>Comfort</h5>
-        <p>
-          I carried the Backpack for over 200km and I never had any complaints
-          regarding comfort. <br />
-          The carrier system from Tasmainan Tiger is one of the best in my
-          opinion.
-          <br />
-          Even though I would not recommend the backpack to people smaller than
-          1.65m. Tasmanian Tiger is clearly designed for military use and they
-          assume the average soldier is about 1.80m.<br />
-          Never the less, you can see in my <a href="#">description</a> I am not
-          taller than 1.70m and on smallest setting it works for me.
-        </p>
-        <h5>Style</h5>
-        <p>
-          For a lot of People this will be the most important and to be honest
-          it was a big selling point to me aswell. <br />
-          If you dig the Military looks, of course sooner or later you will
-          stuble upon products from Tasmainan Tiger. They have a huge range of
-          any Military related products which have also a real use in the
-          civilan world (most of the time anyway).
-        </p>
-        <p>
-          The Military looks are not over the top. There is no camouflage
-          pattern. It only comes in solid colors (green, black, beige and the
-          IRR green).
-        </p>
-        <h5>Usefullness</h5>
-    </div>
-    <?php require 'posts.php'?> 
+    <h5>Size</h5>
+    <p>
+      The Nitro Cinema Felt great on my legs. It is light which makes a feeling that I have nothing attached to my legs.
+      The size 159 fits my weight well stance is very comfortable as it's natural, I have no problem with turns in it,
+      although I'm used to smaller sizes.
+    </p>
+    <h5>Flex</h5>
+    <p>
+      Very good flex, it's in my opinion the better ones I tried. <b>It's not too soft yet it's not crazy stiff </b>.
+      Really a
+      pleasant pop and a great response to tearing up the slope.
+    </p>
+    <h5>On snow feel</h5>
+    <p>
+      So easy to ride and so forgiving for those that skid turns or just want a ride that is less likely than camber to
+      catch an edge. Like all hybrid rocker boards, it has that semi-stable feel underfoot that wants to auto-spin one
+      footing or flat basing in harder snow but it becomes pretty stable in softer snow.
+    </p>
+    <h5>Turning experience</h5>
+    <p>
+      Again it's really good, it can edge really nice, but also depends on how "how low can you go" and "if you're brave
+      enough". Speed and your own limits are key here. I'm not having years of expereience but
+      the turning experience was much better than competition.
+    </p>
+    <h5>Find your size</h5>
+
+    <form action="Snowboard_copy.php" method="post">
+      <label for="height">Height (in cm):</label>
+      <input type="text" name="wzrost" id="wzrost" required><br>
+
+      <label for="weight">Weight (in kg):</label>
+      <input type="text" name="weight" id="weight" required><br>
+
+      <input type="submit" value="Calculate">
+    </form>    </div>
     <?php require 'footer.php'?>
   </body>
 </html>

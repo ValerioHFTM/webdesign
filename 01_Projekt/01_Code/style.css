@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.5;
+
   /* height: 100vh; */
   height: 100%;
 }
@@ -28,6 +29,10 @@ body {
   padding-left: 20px;
   padding: 20px;
   margin-bottom: 180px;
+  border: 2px solid #fbaf26;
+}
+.banner {
+  width: 100%;
 }
 .container a {
   text-decoration: underline;
@@ -67,6 +72,7 @@ header {
   z-index: 2;
   margin-bottom: 10px;
   padding: 10px 10px;
+  border-bottom: 2px solid #fbaf26;
 }
 
 /* Style the navigation bar */
@@ -175,6 +181,7 @@ h2 {
 /* content */
 
 .container h2,
+.container h4,
 .container p {
   margin-left: 20px;
 }
@@ -263,6 +270,7 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+  border-top: 2px solid #fbaf26;
   /* width: 100%; */
   /* display: inline-block; */
   background-color: rgba(222, 222, 222, 1);
@@ -294,6 +302,12 @@ footer a {
   text-transform: none;
   font-weight: 400;
 }
+@media screen and (max-width: 1000px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (max-width: 500px) {
   h1 a {
     font-size: 25px;
@@ -325,5 +339,8 @@ footer a {
     color: #fbaf26;
     font-weight: 600;
     text-transform: uppercase;
+  }
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
