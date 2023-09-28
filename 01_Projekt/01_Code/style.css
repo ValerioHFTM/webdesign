@@ -12,29 +12,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #000000;
-  /* background-color: #ffffff; */
+  background-color: rgba(222, 222, 222, 1);
   font-family: Tahoma, sans-serif;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   line-height: 1.5;
-  height: 100vh;
-}
-/* body::before {
-  background-image: url(../02_Images/wegweiser.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.8;
-  z-index: -1;
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+  /* height: 100vh; */
   height: 100%;
-  opacity: 0.6;
-  
-} */
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+  position: relative;
+  background-color: rgba(222, 222, 222, 1);
+  padding-left: 20px;
+  padding: 20px;
+  margin-bottom: 180px;
+}
+.container a {
+  text-decoration: underline;
+  color: #000;
+}
 
 .relatedposts {
   background-color: rgba(222, 222, 222, 0.4);
@@ -42,10 +40,8 @@ body {
   width: 10%; /* Set width as needed */
   padding: 20px; /* Add padding for spacing inside the div */
   position: absolute; /* Position the div */
-  top: 20%; /* Distance from the top */
-  bottom: 20%;
-  right: 7%; /* Position on the right */
-  margin: 50px;
+  margin: auto;
+  margin-top: -10%;
 }
 .relatedposts a:hover {
   /* text-decoration: none; */
@@ -60,22 +56,19 @@ body {
   position: relative;
   border: 1px solid #000;
 }
-
-.container {
-  width: 50%;
-  margin: 50px auto;
-  /* border: 2px solid #000; */
-  background-color: rgba(222, 222, 222, 0.4);
-  padding-left: 20px;
-  padding-right: 20px;
+.product {
+  padding-top: 10px;
+  width: 80%;
 }
-
 /* header */
 header {
-  background-color: rgba(222, 222, 222, 0.4);
-  margin-bottom: 30px;
+  background-color: rgba(222, 222, 222, 1);
+  /* position: relative; */
+  z-index: 2;
+  margin-bottom: 10px;
   padding: 10px 10px;
 }
+
 /* Style the navigation bar */
 nav ul {
   /* background-color: #333; */
@@ -105,25 +98,33 @@ nav a {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: rgba(222, 222, 222, 0.8);
+  background-color: rgba(222, 222, 222, 1);
+  font-style: normal;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  font-style: normal;
+}
+header li:hover {
+  background-color: #fbaf26;
 }
 
 .dropdown-content li {
   padding: 10px;
+  font-style: normal;
 }
 
 .dropdown-content a {
   /* color: white; */
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Hover effect on dropdown items */
 .dropdown-content li:hover {
-  background-color: rgba(222, 222, 222, 0.4);
+  background-color: rgba(222, 222, 222, 1);
+  background-color: #fbaf26;
 }
 
 .contactbutton {
@@ -144,13 +145,13 @@ nav a {
 .contactbutton:hover {
   /* border-radius: 15%; */
   text-decoration: underline;
+  font-style: normal;
   border-radius: 5%;
-  background-color: #dededeac;
-  /* text-shadow: 0 0 5px #00c0d5ad; */
+  background-color: #fbaf26;
 }
 
 h1 a {
-  color: yellow;
+  color: #fbaf26;
   font-size: 30px;
   margin-bottom: 0px;
   text-transform: uppercase;
@@ -158,7 +159,8 @@ h1 a {
 }
 
 h1 a:hover {
-  color: rgba(0, 192, 213, 1);
+  text-decoration: underline;
+  color: #fbaf26;
 }
 h2 {
   text-transform: uppercase;
@@ -183,7 +185,6 @@ p {
 /* link properties */
 a:link {
   color: black;
-  text-decoration: none;
 }
 /* a:visited{
     We do not want any different appearance for the already visited links
@@ -240,42 +241,31 @@ h5 {
   cursor: pointer;
 }
 
-/* *************************************************************** */
-/* Footer */
+.valerio,
+.mateusz {
+  width: 100%;
+}
 .about {
-  display: flex;
-  align-items: center; /* Vertically center the content */
-  justify-content: space-between; /* Space between images and text */
-  max-width: 800px; /* Adjust this to your container width */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 20px; /* Add some padding for spacing */
-}
-.image {
-  flex: 1; /* Equal width for both images */
-}
-.left-image {
-  order: -1; /* Move the left image to the left */
-  text-align: right; /* Align the image to the right within its div */
-}
-.right-image {
-  order: 1; /* Move the right image to the right */
-  text-align: left; /* Align the image to the left within its div */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .content {
-  flex: 1; /* Take up remaining space in the container */
-  text-align: center; /* Center the text horizontally */
+  margin-left: 20px;
+  margin-right: 40px;
 }
+/* *************************************************************** */
+
+/* Footer */
 
 footer {
-  margin-bottom: 0;
+  /* margin-top: 80px; */
   padding: 10px 10px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
-
   /* width: 100%; */
   /* display: inline-block; */
-  background-color: rgba(222, 222, 222, 0.4);
+  background-color: rgba(222, 222, 222, 1);
 }
 ul {
   list-style-type: none;
@@ -284,22 +274,56 @@ ul {
   margin: 20px;
   list-style: square;
 }
-
-footer ul {
+.footer_navigation {
   display: flex;
   justify-content: center;
-  padding: 10px;
-  color: #00c0d5ad;
+  align-items: flex-start;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7vw 0 7vw;
+  color: #fbaf26;
   font-weight: 600;
   text-transform: uppercase;
 }
-
-footer li {
-  margin: 0 10px;
-}
-
 footer a {
   color: rgb(0, 0, 0);
   text-transform: none;
   font-weight: 400;
+}
+@media screen and (max-width: 500px) {
+  h1 a {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .contactbutton {
+    display: none;
+  }
+  .footer_navigation {
+    display: block;
+    height: 280px;
+  }
+  .container {
+    margin-bottom: 350px;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fbaf26;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
 }

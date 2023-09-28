@@ -18,6 +18,8 @@
               <li><a href="TT_Raid.php">Backpack</a></li>
               <li><a href="Bronner.php">Dr. Bronner</a></li>
               <li><a href="Lowa.php">Lowa</a></li>
+              <li><a href="MSR_Access3.php">Tent</a></li>
+              <li><a href="Snowboard.php">Board</a></li>
             </ul>
           </li>
           <li><a href="about.php">About Us</a></li>
@@ -26,4 +28,5 @@
         </ul>
       </nav>
     </header>
+    
 </html>

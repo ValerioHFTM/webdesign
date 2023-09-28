@@ -11,24 +11,26 @@
   <?php require 'header.php'?> 
     
     <div class="container">
-      <div class="about">
-        <h2>about</h2>
-        <div class="content">
-        <p>
-          Well, This is us.
-          <br />
-          The guy on the right, that's Mateusz. Mateusz is always working and has a pretty cool motorcycle. Needles to say the girls are all running after him. <br />
-          or so I heard <br />
-          The fancy lad on the left side is Valerio. He is always sleepy but his mom says shes proud. 
-        </p>
-        </div>
-        <div class="image left-image">
-          <img
-                src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
-                alt="Valerio"
-                class="valerio"
-                >
-                
+      <h2>about</h2>
+        <div class="about">
+          
+          <div class="image left-image">
+            <img
+                  src="../02_Images/TTRaidPackMK3/TT_Raid_Pack_mk3_Action.jpg"
+                  alt="Valerio"
+                  class="valerio"
+                  > 
+          </div>
+          <div class="content">
+            <p>
+              Well, This is us.
+              <br />
+              "The guy on the right, that's Mateusz. Mateusz is always working and has a pretty cool motorcycle. Needless to say, the girls are all running after him. 
+              <br>
+              Or so I've heard. <br />
+              The fancy lad on the left side is Valerio. He is always sleepy, but his mom says she's proud of him.
+              He is 1.70m tall and loves walking. The weather is not important. Rain? Snow? Or heat? He always adapts, and he tries to be outside as much as possible." 
+            </p>
           </div>
           <div class="image right-image">
           <img
@@ -38,8 +40,8 @@
                 >
           </div>
         </div>
-    </div>
-    <?php require 'posts.php'?> 
+      </div>
+
     <?php require 'footer.php'?> 
   </body>
 </html>

@@ -8,7 +8,10 @@
     <title>Travelling Guide</title>
   <body>
     <?php require 'header.php'?>
-    <div class="container">
+
+
+
+   <div class="container">
         <h2>Tasmanian Tiger Raid Pack MK III</h2>
         <p>
           Go to<a
@@ -29,26 +32,16 @@
           equipped chest rigs and vests. The hip belt can be used separately as
           a Warrior Belt.
         </p>
+
+        <div >
         <img
-          src="../02_Images/TT_Raid_Pack_mk3_Front.png"
+          src="../02_Images/TTRaidPackMK3/Raid.webp"
           alt="Tasmaian Tiger Raid Pack mk III, Front, Green"
-          class="TT-Raid-Pack-mk3-Front"
-        />
+          class="product"
+        >
+        </div>
         <h4 class="summary">Summary: 10 / 10</h4>
-        <p>
-          In our reviews we try to be as fast forward as possible. <br />
-          This is why we rate all the products we tested by the same
-          schematic.<br />
-          For each category we rate the product on a scale from 1 to 10 <br />
-          (10 being the highest, because its the highest)
-        </p>
-        <ul>
-          <li>Price</li>
-          <li>Comfort</li>
-          <li>Style</li>
-          <li>Usefullness</li>
-          <li>Durability</li>
-        </ul>
+      
         <h4>The Review in details</h4>
         <h5>Price</h5>
         <p>
@@ -90,7 +83,7 @@
           Even though I would not recommend the backpack to people smaller than
           1.65m. Tasmanian Tiger is clearly designed for military use and they
           assume the average soldier is about 1.80m.<br />
-          Never the less, you can see in my <a href="#">description</a> I am not
+          Never the less, you can see in my <a href="about.php">description</a> I am not
           taller than 1.70m and on smallest setting it works for me.
         </p>
         <h5>Style</h5>
@@ -107,9 +100,12 @@
           pattern. It only comes in solid colors (green, black, beige and the
           IRR green).
         </p>
-        <h5>Usefullness</h5>
+        <h5>Durability</h5>
+        <p>
+          The backpack is nearly impossible to destroy. At least not when you use it normally. 
+          Obviously if you stab it with a sharp knife the material gets damaged.
+        </p>
     </div>
-    <?php require 'posts.php'?> 
     <?php require 'footer.php'?>
   </body>
 </html>

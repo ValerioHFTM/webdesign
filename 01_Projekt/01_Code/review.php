@@ -62,10 +62,10 @@
               >
             </a>
             <!-- <figcaption>Caption</figcaption> -->
-          </figure>
-          
+          </figure> 
     </div>
-    <?php require 'posts.php'?> 
-    <?php require 'footer.php'?> 
+</div>
+    
+    <?php require 'footer.php'?>
   </body>
 </html>

@@ -10,57 +10,37 @@
   <body>
     <?php require 'header.php'?>
     <div class="container">
-        <h2>Snowboard NITRO</h2>
+        <h2>Dr. Bronner Outdoor soap</h2>
         <p>
           Go to<a
-            href="https://www.tasmaniantiger.info/de/produkt/tt-raid-pack-mkiii/"
+            href="https://drbronner.ch/"
           >
-            Tasmanian Tiger.com</a
+            drbronner.ch/</a
           >
         </p>
         <h5>Supplier Description</h5>
         <p class="manufacturerDescription">
-          The TT Raid Pack MK III has a main compartment with a volume of 48
-          liters and two fixed side pockets with a volume of 2 liters each.
-          MOLLE on the front, the lid, the side pockets and on the hip belt
-          allows individual extension. The V2 Plus Carrying System of the
-          backpack is designed for a weight of up to approx. 40 kilograms and
-          offers great variability when adjusting the back length. Due to the
-          removable hip belt, the backpack can also be carried with fully
-          equipped chest rigs and vests. The hip belt can be used separately as
-          a Warrior Belt.
+        In the 4th and 5th generations, the family-owned company Dr. Bronner's produces pure natural soaps with the highest 
+        quality standards and a consistently sustainable value chain. 
+        The liquid soap, Dr. Bronner's Magic Soap, as it exists today, 
+        was developed in 1948 and remains the best-selling natural soap in North America to this day. 
+        The vision of peaceful coexistence among people and the care for our planet finds its expression in ALL-ONE!, 
+        and in Dr. Bronner's pure products, it is realized for our daily lives. 
+        Dr. Bronner's is both organic and Fair Trade certified. ALL-ONE!
         </p>
         <img
-          src="../02_Images/TT_Raid_Pack_mk3_Front.png"
+          src="../02_Images/Bronner/Bronner_Action.webp"
           alt="Tasmaian Tiger Raid Pack mk III, Front, Green"
-          class="TT-Raid-Pack-mk3-Front"
+          class="Product"
         />
-        <h4 class="summary">Summary: 10 / 10</h4>
-        <p>
-          In our reviews we try to be as fast forward as possible. <br />
-          This is why we rate all the products we tested by the same
-          schematic.<br />
-          For each category we rate the product on a scale from 1 to 10 <br />
-          (10 being the highest, because its the highest)
-        </p>
-        <ul>
-          <li>Price</li>
-          <li>Comfort</li>
-          <li>Style</li>
-          <li>Usefullness</li>
-          <li>Durability</li>
-        </ul>
+        <h4 class="summary">Summary: 9 / 10</h4>
+
         <h4>The Review in details</h4>
         <h5>Price</h5>
         <p>
-          Compared to other products with the same size the Raid Pack mk III is
-          more expensive. <br />
-          Usually a Backpack with 50-55l is ranged between 180.- CHF to 300.-
-          CHF
-          <br />
-          With Tasmanian Tiger being a rather expensive brand it is no surprise
-          that the Raid Pack MK III is available for around 350.- CHF to 450.-
-          CHF
+        The cost of Dr. Bronner's 18-in-1 soap seems reasonable to me. 
+        Initially, it might appear a tad expensive, but it goes a long way due to its high concentration. 
+        One bottle lasts an impressively long time, making it a wallet-friendly choice for a variety of cleaning needs.
         </p>
         <ul class="productsource">
           <li>
@@ -71,46 +51,34 @@
           </li>
           <li>
             <a
-              href="https://www.galaxus.ch/de/search?q=tasmanian+tiger+raid+pack"
+              href="https://www.galaxus.ch/de/s6/product/dr-bronners-18-in-1-teebaum-fluessigseife-60-ml-handseife-6807916?supplier=406802"
             >
-              Raid Pack on Galaxus</a
+              Dr. Bronner 60ml on Galaxus</a
             >
           </li>
         </ul>
-        <p>
-          The One for around 450.- CHF is a special Infrared repellend color /
-          material. It is only used for the military.
-        </p>
+
         <h5>Comfort</h5>
         <p>
-          I carried the Backpack for over 200km and I never had any complaints
-          regarding comfort. <br />
-          The carrier system from Tasmainan Tiger is one of the best in my
-          opinion.
-          <br />
-          Even though I would not recommend the backpack to people smaller than
-          1.65m. Tasmanian Tiger is clearly designed for military use and they
-          assume the average soldier is about 1.80m.<br />
-          Never the less, you can see in my <a href="#">description</a> I am not
-          taller than 1.70m and on smallest setting it works for me.
+          While Dr. Bronner's soap works well for most cleaning tasks, it falls short in terms of comfort when used on hair. 
+          The regular use can lead to hair developing a tangled, "rasta-like" texture after a few days. 
+          Therefore, I prefer to use it as a body wash or for household cleaning, where it excels in durability and effectiveness.
         </p>
         <h5>Style</h5>
         <p>
-          For a lot of People this will be the most important and to be honest
-          it was a big selling point to me aswell. <br />
-          If you dig the Military looks, of course sooner or later you will
-          stuble upon products from Tasmainan Tiger. They have a huge range of
-          any Military related products which have also a real use in the
-          civilan world (most of the time anyway).
+          One aspect of Dr. Bronner's that I particularly appreciate is the range of flavors available. 
+          There's something for every scent preference, from refreshing peppermint to soothing lavender and even almond. 
+          The packaging, with its distinctive labels filled with quotes and messages, adds a unique and interesting touch. 
+          However, I should note that this eclectic design may not suit everyone's tastes, which is why I've given it a slightly lower rating in this category.
         </p>
+
+        <h5>Durability</h5>
         <p>
-          The Military looks are not over the top. There is no camouflage
-          pattern. It only comes in solid colors (green, black, beige and the
-          IRR green).
+          Dr. Bronner's soap has proven to be a versatile and long-lasting cleaning product in my experience. 
+          Its high concentration ensures it can handle frequent use for an extended period. 
+          Whether I'm using it as a body wash or for household cleaning, I can rely on its consistency and effectiveness over time.
         </p>
-        <h5>Usefullness</h5>
     </div>
-    <?php require 'posts.php'?> 
     <?php require 'footer.php'?>
   </body>
 </html>

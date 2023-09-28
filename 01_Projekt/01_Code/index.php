@@ -8,17 +8,21 @@
     <title>Travelling Guide</title>
   </head>
 <body>
+
+
   <?php require 'header.php'?> 
+
     <div class="container">
         <h2>Welcome</h2>
         <p>
           This website will guide you through your next adventure. 
-          <br />We test produts and rate them step by step. 
-          <br />Only after thurough testing we review those products. 
-          <br />We do not get paid by those brands so the reviews are completley neutral<br />
+          <br>We test products and rate them step by step. 
+          <br>Only after thorough testing, we review those products.
+          <br>We do not get paid by those brands, so the reviews are completely neutral.
         </p>
     </div>
-    <?php require 'posts.php'?> 
+
+   
     <?php require 'footer.php'?> 
   </body>
 </html>
