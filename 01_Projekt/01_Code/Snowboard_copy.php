@@ -30,7 +30,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $weight = floatval($_POST["weight"]);
 
-      $sql = "SELECT Name FROM snowboard WHERE Weight_from <= $weight AND Weight_until >= $weight";
+      $sql = "SELECT Name FROM snowboards WHERE Weight_from <= $weight AND Weight_until >= $weight";
       $result = $conn->query($sql);
 
       if ($result->num_rows > 0) {
